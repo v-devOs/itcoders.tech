@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const Footer = () => {
-  return (
-    <div>Footer</div>
-  )
+    return (
+        <footer className='flex justify-content p-20 white-text bg-black'>itcoders.tech</footer>
+    )
 }

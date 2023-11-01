@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
 
-*{
+:root {
+  --primary-color: '';
+  --secondary-color: #0099ff
+}
+
+* {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -12,4 +17,12 @@ h4,
 h5,
 h6 {
   font-family: 'Anton', sans-serif;
+}
+
+textarea {
+  resize: none;
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
 }

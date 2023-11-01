@@ -41,7 +41,9 @@ export const MainLayout: FC<Props> = ({ children, title, author, favIcon, descri
                 <meta property="og:site_name" content="Creativa 2020" />
             </Head>
             <Navbar />
-            {children}
+            <main className="bg-black">
+                {children}
+            </main>
             <Footer />
         </>
     )
