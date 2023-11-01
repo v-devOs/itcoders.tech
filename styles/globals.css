@@ -26,3 +26,9 @@ textarea {
 .bg-secondary {
   background-color: var(--secondary-color);
 }
+
+@media (max-width: 770px){
+  .f-size-100 {
+    font-size: 70px;
+  }
+}
