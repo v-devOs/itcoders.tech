@@ -1,12 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
 import { MainLayout } from '@/components/layout'
 import { Player } from '@lottiefiles/react-lottie-player'
 
 export default function Home() {
   return (
-    <MainLayout title='itcoders.tech' description='Aquí si programamos :P'>
+    <MainLayout title='itcoders.tech' description='Desarrolladores apasionados'>
       <main>
         <section className='flex column justify-content align-center bg-black' style={{ width: '100vw', height: '96vh' }}>
           <h1 className='white-text f-size-100 ls-1'>itcoders.tech</h1>
