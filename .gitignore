@@ -15,10 +15,14 @@
 
 # production
 /build
+docker-compose.yml
+Dockerfile
+.devcontainer
 
 # misc
 .DS_Store
 *.pem
+.env
 
 # debug
 npm-debug.log*
