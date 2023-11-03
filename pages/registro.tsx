@@ -1,11 +1,13 @@
+import { CheckboxOptions, SelectMenu } from '@/components/form'
 import { MainLayout } from '@/components/layout'
+import { carreras, lenguajes, niveles } from '@/data'
 import { Player } from '@lottiefiles/react-lottie-player'
 import React from 'react'
 
 const Registro = () => {
     return (
         <MainLayout title='Registro' description='Únete al equipo de desarrollo oficial del ITC'>
-            <section className='flex justify-content align-center p-70' style={{ flexWrap: 'wrap'}} id='sec-login'>
+            <section className='flex justify-content  p-70' style={{ flexWrap: 'wrap'}} id='sec-login'>
 
                 <form action="submit" style={{ width: '70vh' }} className='flex column gap-15 p-20 mb-50' id='login-register'>
                     <div className='user-box'>
@@ -18,39 +20,32 @@ const Registro = () => {
                         <label className='white-text'>Correo</label>
                     </div>
 
-                    <div className='user-box'>
-                        {/* TODO: Crear un menu desplegable con opciones */}
-                        <input />
-                        <label className='white-text'>Carrera</label>
-                    </div>
+                    <SelectMenu title='Carrera' options={carreras}/>
+                    <SelectMenu title='Nivel de Programación' options={niveles}/>
 
-                    <div className='user-box'>
-                        {/* TODO: Crear un menu desplegable con opciones */}
-                        <input />
-                        <label className='white-text'>Nivel de programación</label>
-                    </div>
+                    <CheckboxOptions
+                        title='Lenguajes de programación que has usado'
+                        options={ lenguajes }
+                    />
 
-                    <div className='user-box'>
-                        <input />
-                        <label className='white-text'>Lenguajes de programación que has usado</label>
-                    </div>
-
-                    <div className='user-box'>
-                        <input />
-                        <label className='white-text'>Lenguajes de programación que te gustaría aprender</label>
-                    </div>
-
+                   <CheckboxOptions 
+                        title='Lenguajes de programación que te gustaría aprender'
+                        options={ lenguajes }
+                    />
 
                     <div className='user-box'>
                         <input   />
                         <label className='white-text'>Horarios libres disponibles</label>
                     </div>
 
-                    {/* <div className=''>
-                        <textarea placeholder='Creo que en el apartado ... podemos mejorar ... / Creo que si implementaramos ... sería ... porque ...'  rows={5} />
+                    <div className='flex column' style={{ gap: '10px'}}>
                         <label className='white-text'>¿Qué propuesta de mejora tienes para la Universidad que se podría implementar en software?</label>
-                    </div> */}
-                    <button className='white-text btn-register' style={{ backgroundColor: '#FE481D' }}>
+                        <textarea 
+                            className='txt-area white-text' 
+                            placeholder='Creo que en el apartado ... podemos mejorar ... / Creo que si implementaramos ... sería ... porque ...'  rows={5} />
+                    </div>
+
+                    <button className='white-text btn-register p-10' style={{ backgroundColor: '#FE481D' }}>
                         Registrarme ahora
                     </button>
                 </form>

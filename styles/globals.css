@@ -3,7 +3,8 @@
 
 :root {
   --primary-color: '';
-  --secondary-color: #0099ff
+  --secondary-color: #0099ff;
+  --tertiary-color: #202020;
 }
 
 * {
@@ -31,11 +32,14 @@ textarea {
   .f-size-100 {
     font-size: 60px;
   }
-  /* #sec-login{
+  #sec-login{
     padding: 15px;
-  } */
+  }
 }
 /* Styles added for Uriel */
+.wrap{
+  flex-wrap: wrap;
+}
 
 #login-register{
   background-color: rgba(37, 37, 37, 0.3);
@@ -64,17 +68,24 @@ textarea {
   font-size: 16px;
   color: #fff;
   pointer-events: none;
-  transition: .5s;
+  transition: .3s;
 }
 
 .user-box input:focus ~ label{
   top: -20px;
   left: 0;
-  color: blueviolet;
+  color: #FE481D;
   font-size: 12px;
 }
 
-.btn-register{
+.btn-register, .input-sct{
   border-radius: 5px;
-  padding: 10px;
+}
+
+/* Estilos en los inpust de select */
+.input-sct, .txt-area{
+  background-color: var(--tertiary-color);
+  margin: 5px 0px 10px;
+  border: none;
+  
 }
