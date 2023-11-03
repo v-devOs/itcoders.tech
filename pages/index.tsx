@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <MainLayout title='itcoders.tech' description='Desarrolladores apasionados'>
       <main>
-        <section className='flex column justify-content align-center bg-black' style={{ width: '100vw', height: '96vh' }}>
+        <section className='flex column justify-content align-center bg-black' style={{ height: '96vh' }}>
           <h1 className='white-text f-size-100 ls-1'>itcoders.tech</h1>
           <Player
             className="img-fluid"
