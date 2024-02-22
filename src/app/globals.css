@@ -4,8 +4,7 @@
 :root {
   --primary-color: '';
   --secondary-color: #0099ff;
-  --tertiary-color: #202020;
-  --quaternary-color: #F2F168;
+  --thirt-color: #F2F168;
 }
 
 * {
@@ -30,8 +29,8 @@ textarea {
   background-color: var(--secondary-color) !important;
 }
 
-.bg-quaternary {
-  background-color: var(--quaternary-color);
+.bg-thirt {
+  background-color: var(--thirt-color);
 }
 
 @media (max-width: 770px) {
