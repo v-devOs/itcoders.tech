@@ -1,4 +1,5 @@
 import { Player } from '@lottiefiles/react-lottie-player'
+import { OurProjects } from "@/components/landing-page/OurProjects";
 
 export default function Home() {
   return (
@@ -35,7 +36,8 @@ export default function Home() {
       </svg>
       <section className='white-text bg-secondary p-40'>
         <h2 className='f-size-50'>Nuestros proyectos</h2>
-        <div className='grid-c-6'>
+        <div className='grid-c-12'>
+          <OurProjects />
           {/* TODO: CREAR COMPONENTE DE TARJETA CON FOTO, NOMBRE Y DESCRIPCIÓN */}
         </div>
       </section>
