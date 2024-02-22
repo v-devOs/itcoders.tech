@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -7,7 +6,7 @@ export const Navbar = () => {
         <nav className='flex justify-content p-40 bg-black align-center'>
             <div className='flex gap-50'>
                 <Link href='/' className='white-text'>Home</Link>
-                <Link href='/registro' className='white-text'>Registro</Link>
+                {/* <Link href='/registro' className='white-text'>Registro</Link> */}
             </div>
         </nav>
     )

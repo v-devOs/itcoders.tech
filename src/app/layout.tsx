@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Link from 'next/link';
+import { Footer, Navbar } from "@/components";
 
 export const metadata: Metadata = {
     title: "Integra - Soluciones legales",
@@ -19,7 +19,7 @@ export default function RootLayout({
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
                 {/*TITLE */}
                 <title>
-                    {'itcoders.tech'}
+                    itcoders.tech
                 </title>
 
                 {/*FAVICON */}
@@ -39,8 +39,10 @@ export default function RootLayout({
                 <meta property="og:site_name" content="ITCoders" />
             </head>
             <body>
+                <Navbar />
                 {children}
                 {/* TODO: ADD FOOTER */}
+                <Footer />
                 {/* <footer className="bg-black white-text center-text"><Link href='https://luisrrleal.com/'>By @luisrrleal</Link></footer> */}
             </body>
         </html>
