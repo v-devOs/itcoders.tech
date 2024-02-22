@@ -1,5 +1,5 @@
 import { Player } from '@lottiefiles/react-lottie-player'
-import { OurProjects } from "@/components/lading-page/OurProjects";
+import { OurProjects } from "@/components/landing-page/OurProjects";
 
 export default function Home() {
   return (
