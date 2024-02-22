@@ -1,20 +1,18 @@
-import { MainLayout } from '@/components/layout'
 import { Player } from '@lottiefiles/react-lottie-player'
 
 export default function Home() {
   return (
-    <MainLayout title='itcoders.tech' description='Desarrolladores apasionados'>
       <main>
         <section className='flex column justify-content align-center bg-black' style={{ height: '96vh' }}>
           <h1 className='white-text f-size-100 ls-1'>itcoders.tech</h1>
-          <Player
+          {/* <Player
             className="img-fluid"
             autoplay
             loop
             src="https://lottie.host/0cb71c55-0881-4936-a04e-e562d7b3c9c5/yMbDwhNWrZ.json"
             background="transparent"
             style={{ height: 400, width: 'auto' }}
-          />
+          /> */}
         </section>
         <section className='grid-c-2 white-text'>
           <div className='p-40'>
@@ -22,14 +20,14 @@ export default function Home() {
             <p className='f-size-24'>Somos un grupo de desarrolladores de aplicaciones y sistemas aplicados a la vida real que pertenece y trabaja en conjunto como un grupo estudiantil con el departamento de sistemas del Instituto Tecnológico de Celaya.</p>
           </div>
           <div>
-            <Player
+            {/* <Player
               className="img-fluid"
               autoplay
               loop
               src="https://lottie.host/ca13a1ff-8b20-483a-b6b4-541d40a07dea/2vMLggQ0Mb.json"
               background="transparent"
               style={{ height: 400, width: 'auto' }}
-            />
+            /> */}
           </div>
         </section>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style={{ marginBottom: -10 }}>
@@ -46,6 +44,6 @@ export default function Home() {
           {/* TODO: CREAR COMPONENTE DE PERSONA CON FOTO, NOMBRE Y REDES SOCIALES (GITHUB, INSTAGRAM) */}
         </section>
       </main>
-    </MainLayout>
+
   )
 }
