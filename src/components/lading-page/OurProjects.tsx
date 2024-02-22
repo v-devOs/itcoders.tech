@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { projects } from "../../data/our-projects";
+import { projects } from "@/data";
 
 import "./carousel.css";
 
