@@ -74,7 +74,7 @@ export default function Home() {
       </section> */}
       <section className='white-text p-40 bg-secondary'>
         <h2 className='f-size-50'>Equipo</h2>
-        <img className="width-100" src="https://images.hola.com/imagenes/cocina/noticiaslibros/20230412229842/helados-sabores-originales-recetas/1-233-402/helados-varios-adob-t.jpg" alt="Equipo de trabajo" />
+        {/* <img className="width-100" src="https://images.hola.com/imagenes/cocina/noticiaslibros/20230412229842/helados-sabores-originales-recetas/1-233-402/helados-varios-adob-t.jpg" alt="Equipo de trabajo" /> */}
         {/* TODO: CREAR COMPONENTE DE PERSONA CON FOTO, NOMBRE Y REDES SOCIALES (GITHUB, INSTAGRAM) */}
       </section>
     </main>
