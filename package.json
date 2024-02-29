@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@egjs/react-flicking": "^4.11.2",
     "@lottiefiles/react-lottie-player": "^3.5.2",
     "@motionone/utils": "^10.17.0",
     "emailjs-com": "^3.2.0",
