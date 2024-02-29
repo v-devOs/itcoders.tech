@@ -1,22 +1,22 @@
-.cards {
+.carousel-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
   padding: 20px;
   grid-gap: 40px;
 }
 
-.card {
+.carousel-card {
   background-color: #1c1b29;
   border-radius: 20px;
   box-shadow: 0 0 30px rgba(0,0,0,0.18);
 }
 
-.container {
+.carousel-container {
   position: relative;
   clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
 }
 
-img {
+carousel-img {
   width: 100%;
   display: block;
   border-radius: 20px 20px 0 0;
@@ -24,7 +24,7 @@ img {
   height: 300px;
 }
 
-.container:after {
+.carousel-container:after {
     content: "";
     height: 100%;
     width: 100%;
@@ -35,11 +35,11 @@ img {
     opacity: 0.7;
 }
 
-.details {
+.carousel-details {
   padding: 20px 10px;
 }
 
-.details > h3 {
+.carousel-details-title {
   color: #ffffff;
   font-weight: 600;
   font-size: 18px;
@@ -47,7 +47,7 @@ img {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.details > p {
+.carousel-details-description {
   color: #a0a0a0;
   font-size: 15px;
   line-height: 30px;
