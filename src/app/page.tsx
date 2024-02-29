@@ -77,7 +77,7 @@ export default function Home() {
           </form>
         </div>
       </section> */}
-      <section className="login-box flex column white-text">
+      <section id="Contact" className="login-box flex column white-text">
         <h3 className="secondary-title-color">Si buscas una solución novedosa para tu negocio, ponte en contacto con nosotros</h3>
         <form>
           <div className="user-box">
