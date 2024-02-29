@@ -5,6 +5,10 @@
   --primary-color: '';
   --secondary-color: #0099ff;
   --thirt-color: #F2F168;
+
+  /* New palette color */
+  --secondary-blue: #88ccff;
+  --thirt-blue: #0077cc;
 }
 
 * {
@@ -26,11 +30,13 @@ textarea {
 }
 
 .bg-secondary {
-  background-color: var(--secondary-color) !important;
+  /* background-color: var(--secondary-color) !important; */
+  background-color: var(--secondary-blue) !important;
 }
 
 .bg-thirt {
-  background-color: var(--thirt-color);
+  /* background-color: var(--thirt-color); */
+  background-color: var(--thirt-blue);
 }
 
 @media (max-width: 770px) {
@@ -99,4 +105,45 @@ textarea {
   margin: 5px 0px 10px;
   border: none;
 
+}
+
+.Team-Img{
+  width: 60%;
+  margin: auto;
+  border-radius: 20px;
+}
+@media (max-width: 700px) {
+  .Team-Img{
+    width: 320px;
+  }
+}
+
+/* NAVBAR CSS */
+.Navbar{
+  width: 100vw;
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px white;
+}
+.Itcoders-Icon{
+  width: 70px;
+}
+.Navbar-List{
+  margin-right: 10px;
+  color: white;
+  list-style: none;
+  justify-content: space-around;
+}
+.Navbar-List > a{
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+}
+.Navbar-List > a:visited{
+  color: unset;
+}
+.Navbar-List > a > li{
+  margin-right: 7px;
 }

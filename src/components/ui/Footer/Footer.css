@@ -63,7 +63,7 @@ body {
     padding: 20px;*/
     width: 100vw;
     margin: auto;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start; 
     align-items: center;
     background-image: radial-gradient(
