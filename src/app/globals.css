@@ -123,12 +123,14 @@ textarea {
 
 /* NAVBAR CSS */
 .Navbar{
+  background-color: var(--thirt-blue);
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
   width: 100vw;
   position: absolute;
   z-index: 100;
   display: flex;
   justify-content: space-between;
-  border-bottom: solid 1px white;
 }
 .Itcoders-Icon{
   width: 70px;
@@ -140,6 +142,7 @@ textarea {
   justify-content: space-around;
 }
 .Navbar-List > a{
+  color: white;
   display: flex;
   align-items: center;
   margin: 0px 10px;
@@ -147,11 +150,9 @@ textarea {
 .Navbar-List > a:visited{
   color: unset;
 }
-.Navbar-List > a > li{
+.Navbar-List > a > i{
   margin-right: 7px;
 }
-
-
 /* FORM CSS */
 .login-box {
   margin: auto;
@@ -162,13 +163,6 @@ textarea {
   box-shadow: 0 15px 25px rgba(0,0,0,.6);
   border-radius: 10px;
 }
-
-/* .login-box h2 {
-  margin: 0 0 30px;
-  padding: 0;
-  color: #fff;
-  text-align: center;
-} */
 
 .login-box .user-box {
   position: relative;
