@@ -63,6 +63,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
       {/* TODO: TERMINAR FORMULARIO DE CONTACTO */}
       {/* <section className='p-100 flex align-center justify-content'>
         <div className='bg-white p-20'>
@@ -76,7 +77,29 @@ export default function Home() {
           </form>
         </div>
       </section> */}
-      <section className='white-text p-40 bg-secondary column justify-content align-center'>
+      <section className="login-box flex column white-text">
+        <h3 className="secondary-title-color">Si buscas una solución novedosa para tu negocio, ponte en contacto con nosotros</h3>
+        <form>
+          <div className="user-box">
+            <input type="text" placeholder="Nombre"></input>
+          </div>
+          <div className="user-box">
+            <input type="email" placeholder="Correo"></input>
+          </div>
+          <div className="user-box">
+            <input type="text" placeholder="Asunto"></input>
+          </div>
+          <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Enviar infromación
+          </a>
+        </form>
+      </section>
+
+      <section className='white-text p-40 bg-secondary flex column justify-content align-center'>
         <h2 className='f-size-50'>Equipo</h2>
         <img className="Team-Img" src="https://i.ibb.co/pxc297G/Whats-App-Image-2024-02-27-at-3-20-27-PM.jpg" alt="Equipo de trabajo" />
         {/* TODO: CREAR COMPONENTE DE PERSONA CON FOTO, NOMBRE Y REDES SOCIALES (GITHUB, INSTAGRAM) */}
