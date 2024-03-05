@@ -38,6 +38,9 @@ textarea {
 .bg-thirt-blue {
   background-color: var(--thirt-blue);
 }
+.bg-white{
+  background-color: var(--main-white);
+}
 .bg-light-gray{
   background-color: var(--light-gray);
 }
@@ -162,4 +165,9 @@ textarea {
 }
 .Navbar-List > a > i{
   margin-right: 7px;
+}
+
+/* DeSCIPTION sECTIO css */
+.Description-Section{
+  width: 75%;
 }
