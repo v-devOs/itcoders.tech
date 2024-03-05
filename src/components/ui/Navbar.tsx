@@ -8,7 +8,7 @@ export const Navbar = () => {
 
     return (
         <nav className="flex p-20 justify-content">
-            <div className="flex gap-25 bg-light-gray-color radius">
+            <div className="flex bg-light-gray-color radius">
                 <Link href='/' className={`ph-20 p-10 radius ${pathname == '/' ? 'bg-primary white-text' : 'black-text'}`}>Inicio</Link>
                 <Link href='/sobre-nosotros' className={`ph-20 p-10 radius ${pathname == '/sobre-nosotros' ? 'bg-primary white-text' : 'black-text'}`} >Sobre nosotros</Link>
                 <Link href='/servicios' className={`ph-20 p-10 radius ${pathname == '/servicios' ? 'bg-primary white-text' : 'black-text'}`}>Servicios</Link>
