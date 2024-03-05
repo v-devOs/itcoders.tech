@@ -40,7 +40,7 @@ export default function RootLayout({
                 <meta property="og:site_name" content="ITCoders" />
             </head>
             <body>
-                {/* <Navbar /> */}
+                <Navbar />
                 {children}
                 {/* <Footer /> */}
             </body>

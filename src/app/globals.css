@@ -157,7 +157,7 @@ textarea {
   }
 }
 
-/* NAVBAR CSS */
+/* NAVBAR CSS
 .Navbar {
   background-color: var(--thirt-blue);
   border-bottom-right-radius: 30px;
@@ -193,7 +193,7 @@ textarea {
 
 .Navbar-List>a>i {
   margin-right: 7px;
-}
+} */
 
 /* FORM CSS */
 .login-box {

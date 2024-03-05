@@ -7,7 +7,6 @@ export default function Home() {
         <h1 className='white-text f-size-100 ls-1'>itcoders.tech</h1>
       </section>
 
-      
       <section id="About-Us-Section" className='grid-c-2 white-text'>
         <div className='p-40 flex column justify-content'>
           <h2 className='f-size-50'>Sobre nosotros</h2>
