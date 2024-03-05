@@ -98,11 +98,11 @@ export default function Home() {
         </form>
       </section>
 
-      <section className='white-text p-40 bg-secondary flex column justify-content align-center'>
+      {/* <section className='white-text p-40 bg-secondary flex column justify-content align-center'>
         <h2 className='f-size-50'>Equipo</h2>
         <img className="Team-Img" src="https://i.ibb.co/pxc297G/Whats-App-Image-2024-02-27-at-3-20-27-PM.jpg" alt="Equipo de trabajo" />
-        {/* TODO: CREAR COMPONENTE DE PERSONA CON FOTO, NOMBRE Y REDES SOCIALES (GITHUB, INSTAGRAM) */}
-      </section>
+
+      </section> */}
     </main>
 
   )

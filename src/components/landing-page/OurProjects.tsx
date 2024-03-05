@@ -7,6 +7,7 @@ import Flicking from "@egjs/react-flicking";
 import "@egjs/react-flicking/dist/flicking.css";
 
 import "./carousel.css";
+import Image from "next/image";
 
 export const OurProjects = () => {
   return (
@@ -20,7 +21,7 @@ export const OurProjects = () => {
         <section key={index} className="carousel-cards">
           <div className="carousel-card">
             <div className="carousel-container">
-              <img
+              <Image
                 src={project.image}
                 width={800}
                 height={500}

@@ -25,10 +25,10 @@ const AboutUsPage = () => {
                         La idea empieza cuando un grupo de amigos en universidad se dan cuenta que con los conocimientos escolares no basta, hace falta más.
                     </p>
                     <p className="f-size-16 mt-20">
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nam vel, explicabo, laborum doloribus porro eos dicta qui odit beatae sit autem et voluptatibus facilis soluta nobis, assumenda tenetur iusto.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, esse quibusdam aut, vero repellat placeat autem est quod quidem atque nostrum soluta, magni id praesentium deleniti reiciendis labore cumque numquam!
+                        Delectus nihil sunt fuga nobis dolorem, iste nemo aut mollitia eaque aliquid molestias, libero reprehenderit voluptatem illo earum perspiciatis, quam natus eos iure architecto totam inventore? Tempore repudiandae necessitatibus pariatur.
 
-                        This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
                     </p>
                 </div>
             </section>
@@ -38,7 +38,7 @@ const AboutUsPage = () => {
                     <p className="f-size-20 mt-20">Nuestro equipo aporta experiencia, innovación, creatividad al mundo de la programación y desarrollo de productos que aseguran tus planes en buenas manos.</p>
                 </div>
                 <div className="mt-50 grid-c-4 gap-25">
-                {/* <TeamCard /> */}
+                    {/* <TeamCard /> */}
                 </div>
             </section>
         </main>
