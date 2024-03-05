@@ -40,11 +40,9 @@ export default function RootLayout({
                 <meta property="og:site_name" content="ITCoders" />
             </head>
             <body>
-                <Navbar />
+                {/* <Navbar /> */}
                 {children}
-                {/* TODO: ADD FOOTER */}
-                <Footer />
-                {/* <footer className="bg-black white-text center-text"><Link href='https://luisrrleal.com/'>By @luisrrleal</Link></footer> */}
+                {/* <Footer /> */}
             </body>
         </html>
     );
