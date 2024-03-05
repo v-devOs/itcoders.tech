@@ -41,9 +41,9 @@ export default function RootLayout({
             </head>
             <body>
                 <Navbar />
-                {children}
+                {/* {children} */}
                 {/* TODO: ADD FOOTER */}
-                <Footer />
+                {/* <Footer /> */}
                 {/* <footer className="bg-black white-text center-text"><Link href='https://luisrrleal.com/'>By @luisrrleal</Link></footer> */}
             </body>
         </html>
