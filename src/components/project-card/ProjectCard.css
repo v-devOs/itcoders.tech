@@ -1,0 +1,16 @@
+.Project-Card{ 
+    height: 400px;
+    width: 600px;
+    position:relative;
+    overflow: hidden;
+}
+.Project-Title-Span{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.Project-Link-Span{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}

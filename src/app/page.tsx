@@ -1,4 +1,6 @@
 import { OurProjects, InitialPlayer } from "@/components/landing-page";
+import { ProjectCard } from "@/components/project-card/ProjectCard";
+import { title } from "process";
 
 export default function Home() {
   return (
@@ -6,8 +8,7 @@ export default function Home() {
       <section className="bg-white p-40">
         <div className="Description-Section">
           <p className="f-size-50">
-            EL SOFTWARE <i className="fa-brands fa-uncharted"></i> DE TUS SUEÑOS ES TU 
-            <i className="fa-solid fa-map"></i> CAMINO A LA INXPIRACIÓN 
+            EL SOFTWARE <i className="fa-brands fa-uncharted"></i> DE TUS SUEÑOS ES TU <i className="fa-solid fa-map"></i> CAMINO A LA INSPIRACIÓN 
             E INNOVACIÓN <i className="fa-solid fa-location-dot"></i>
           </p>
         </div>
@@ -16,17 +17,9 @@ export default function Home() {
         <h1 className='white-text f-size-100 ls-1'>itcoders.tech</h1>
       </section> */}
 
-      
-      {/* <section id="About-Us-Section" className='grid-c-2 white-text'>
-        <div className='p-40 flex column justify-content'>
-          <h2 className='f-size-50'>Sobre nosotros</h2>
-          <p className='f-size-24'>Somos un grupo de desarrolladores de aplicaciones y sistemas aplicados a la vida real que pertenece y trabaja en conjunto como un grupo estudiantil con el departamento de sistemas del Instituto Tecnológico de Celaya.</p>
-        </div>
-        <div>
-          <InitialPlayer />
-        </div>
-      </section> */}
-
+      <section className="bg-white p-40 flex justify-content align-center">
+          <ProjectCard></ProjectCard>
+      </section>  
 
       {/* <section id="Our-Projects-Section" className='white-text bg-secondary p-40' style={{ paddingBottom: 300 }}>
         <h2 className='f-size-50'>Nuestros proyectos</h2>
