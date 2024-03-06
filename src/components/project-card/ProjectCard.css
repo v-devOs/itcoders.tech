@@ -1,16 +1,44 @@
-.Project-Card{ 
+/* .Project-Card{ 
+    border-radius: 30px;
+    height: 400px;
+    width: 80px;
+    position:relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.Project-Card:hover{ 
     height: 400px;
     width: 600px;
     position:relative;
     overflow: hidden;
+} */
+/* VISTA DE ESCRITORIO */
+.Project-Card{ 
+    border-radius: 30px;
+    height: 50vh;
+    width: 35vw;
+    /* width: 600px; */
+    /* height: 400px; */
+    position:relative;
+    overflow: hidden;
+    transition: 0.5s;
 }
-.Project-Title-Span{
-    position: absolute;
+.Project-Title-Span-Div{
     top: 15px;
     left: 15px;
 }
 .Project-Link-Span{
-    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+.Project-Numeration-Span{
     bottom: 15px;
     right: 15px;
 }
+
+/* VISTA TABLETAS */
+@media (max-width: 955px) {
+    /* Ajustar la vista de los spans de abajo */
+}
+
+/* VISTA CELULARES */

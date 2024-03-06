@@ -17,9 +17,54 @@ export default function Home() {
         <h1 className='white-text f-size-100 ls-1'>itcoders.tech</h1>
       </section> */}
 
-      <section className="bg-white p-40 flex justify-content align-center">
-          <ProjectCard></ProjectCard>
+      <section className="bg-white p-40">
+          <div className="Our-Projects-Slide width-100 flex justify-content align-center">
+            <ProjectCard></ProjectCard>
+            
+          </div>
       </section>  
+      
+      <section className="bg-white flex justify-between align-center" style={{padding: "10px 40px"}}>
+        <div>
+          <span className="font-bold-700 f-size-12 mr-10">99% Clientes Satisfechos</span>
+          <span className="font-bold-700 f-size-12 mr-10">Atención especializada 24/7</span>
+          <span className="font-bold-700 f-size-12">10K+ Usuarios Contentos</span>
+        </div>
+
+        <div className="flex">
+          <div className="icon-size flex align-center justify-content border-radius-20 bg-primary-blue mr-10">
+            <i className="fa-brands fa-instagram fa-xl white-text"></i>
+          </div>
+          <div className="icon-size flex align-center justify-content border-radius-20 bg-primary-blue mr-10">
+            <i className="fa-brands fa-linkedin fa-xl white-text"></i>
+          </div>
+          <div className="icon-size flex align-center justify-content border-radius-20 bg-primary-blue">
+            <i className="fa-brands fa-github fa-xl white-text"></i>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-white flex justify-between p-40" style={{paddingTop: "10px"}}>
+        <div className="" style={{width: "20%"}}>
+          <p className="f-size-24">Nuestros números hablan</p>
+        </div>
+
+        <div className="" style={{width: "80%"}}>
+          
+          {/* TODO: Hacer componentes estas etiquetas  */}
+          <div className="border-radius-30 p-10 bg-light-gray flex  align-center" style={{width: "180px", height:"75px"}}>
+            <div className="icon-size flex align-center justify-content border-radius-20 bg-primary-blue mr-10">
+              <i className="fa-brands fa-github fa-xl white-text"></i>
+            </div>
+
+            <div >
+              <p className="f-size-14">Líneas de código</p>
+              <p className="f-size-20">10K</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
 
       {/* <section id="Our-Projects-Section" className='white-text bg-secondary p-40' style={{ paddingBottom: 300 }}>
         <h2 className='f-size-50'>Nuestros proyectos</h2>
