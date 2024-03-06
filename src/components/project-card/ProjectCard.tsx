@@ -9,7 +9,7 @@ interface Props{
 // export const ProjectCard:FC<Props> = ({title, image, url}) =>{
 export const ProjectCard = () =>{
     return (
-        <div className="Project-Card border-radius-15 bg-light-gray">
+        <div className="Project-Card border-radius-15 bg-light-gray-color">
             {/* <span className='border-radius-15 bg-white Project-Title-Span'>{title}</span> */}
             <div className='Project-Title-Span-Div absolute'>
                 <span className='f-size-10 border-radius-15 p-5 mr-10 bg-white Project-Title-Span Project-Title-Span-1'>SEO</span>

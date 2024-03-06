@@ -26,19 +26,19 @@ export default function Home() {
       
       <section className="bg-white flex justify-between align-center" style={{padding: "10px 40px"}}>
         <div>
-          <span className="font-bold-700 f-size-12 mr-10">99% Clientes Satisfechos</span>
-          <span className="font-bold-700 f-size-12 mr-10">Atención especializada 24/7</span>
-          <span className="font-bold-700 f-size-12">10K+ Usuarios Contentos</span>
+          <span className="f-weight-700  f-size-12 mr-10">99% Clientes Satisfechos</span>
+          <span className="f-weight-700  f-size-12 mr-10">Atención especializada 24/7</span>
+          <span className="f-weight-700  f-size-12">10K+ Usuarios Contentos</span>
         </div>
 
         <div className="flex">
-          <div className="icon-size flex align-center justify-content border-radius-20 bg-primary-blue mr-10">
+          <div className="icon-size flex align-center justify-content border-radius-20 bg-primary mr-10">
             <i className="fa-brands fa-instagram fa-xl white-text"></i>
           </div>
-          <div className="icon-size flex align-center justify-content border-radius-20 bg-primary-blue mr-10">
+          <div className="icon-size flex align-center justify-content border-radius-20 bg-primary mr-10">
             <i className="fa-brands fa-linkedin fa-xl white-text"></i>
           </div>
-          <div className="icon-size flex align-center justify-content border-radius-20 bg-primary-blue">
+          <div className="icon-size flex align-center justify-content border-radius-20 bg-primary">
             <i className="fa-brands fa-github fa-xl white-text"></i>
           </div>
         </div>
@@ -52,8 +52,8 @@ export default function Home() {
         <div className="" style={{width: "80%"}}>
           
           {/* TODO: Hacer componentes estas etiquetas  */}
-          <div className="border-radius-30 p-10 bg-light-gray flex  align-center" style={{width: "180px", height:"75px"}}>
-            <div className="icon-size flex align-center justify-content border-radius-20 bg-primary-blue mr-10">
+          <div className="border-radius-30 p-10 bg-light-gray-color flex  align-center" style={{width: "180px", height:"75px"}}>
+            <div className="icon-size flex align-center justify-content border-radius-20 bg-primary mr-10">
               <i className="fa-brands fa-github fa-xl white-text"></i>
             </div>
 
@@ -138,6 +138,7 @@ export default function Home() {
         </form>
       </section> */}
 
+      {/* <section className='white-text p-40 bg-secondary flex column justify-content align-center'>
       {/* <section className='white-text p-40 bg-secondary flex column justify-content align-center'>
         <h2 className='f-size-50'>Equipo</h2>
         <img className="Team-Img" src="https://i.ibb.co/pxc297G/Whats-App-Image-2024-02-27-at-3-20-27-PM.jpg" alt="Equipo de trabajo" />

@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
+  --primary-color: #0099FF;
+  --secondary-color: #0077CC;
+  --dark-gray-color: #A6A6A6;
+  --light-gray-color: #F5F5F5;
+  --thirt-color: #F2F168;
+
   /* New palette color */
   --primary-blue: #0099ff;
   --secondary-blue: #88ccff;
@@ -14,17 +22,8 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-  cursor: url(https://cur.cursors-4u.net/cursors/cur-1/cur1.ani), url(https://cur.cursors-4u.net/cursors/cur-1/cur1.png), auto !important;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Anton', sans-serif;
+  font-family: "Montserrat", sans-serif;
+  /* cursor: url(https://cur.cursors-4u.net/cursors/cur-1/cur1.ani), url(https://cur.cursors-4u.net/cursors/cur-1/cur1.png), auto !important; */
 }
 
 textarea {
@@ -37,40 +36,43 @@ textarea {
 .justify-between{
   justify-content: space-between;
 }
-.font-bold-700{
-  font-weight: 700;
-}
+
 .width-100{
   width: 100%;
 }
-.bg-primary-blue{
-  color: white;
-  background-color: var(--primary-blue);
-}
+
 .bg-secondary-blue {
   background-color: var(--secondary-blue);
 }
-.bg-thirt-blue {
-  background-color: var(--thirt-blue);
-}
-.bg-white{
-  background-color: var(--main-white);
-}
-.bg-light-gray{
+
+/* .bg-light-gray{
   background-color: var(--light-gray);
+} */
+.padding-container{
+  padding: 10px;
 }
 
 .border-none{
   border: none;
 }
-.secondary-title-color{
-  color: var(--secondary-blue);
+/* BACKGROUNDS */
+.bg-primary {
+  background-color: var(--primary-color) !important;
 }
 
-.padding-container{
-  padding: 10px;
+.bg-secondary {
+  background-color: var(--secondary-color) !important;
 }
 
+.bg-thirt-blue {
+  background-color: var(--thirt-blue);
+}
+
+.bg-light-gray-color {
+  background-color: var(--light-gray-color);
+}
+
+/* BORDER RADIUS */
 .border-radius-10{
   border-radius: 10px;
 }
@@ -83,6 +85,46 @@ textarea {
 .border-radius-30{
   border-radius: 30px;
 }
+
+/* TEXT COLORS */
+.color-primary {
+  color: var(--primary-color);
+}
+
+.color-secondary {
+  color: var(--secondary-color);
+}
+
+.color-dark-gray {
+  color: var(--dark-gray-color);
+}
+
+.color-dark-gray-color {
+  color: var(--dark-gray-color);
+}
+
+
+/* TEXT STYLES */
+.f-weight-400 {
+  font-weight: 400;
+}
+
+.f-weight-500 {
+  font-weight: 500;
+}
+
+.f-weight-600 {
+  font-weight: 600;
+}
+
+.f-weight-700 {
+  font-weight: 700;
+}
+
+.f-weight-100 {
+  font-weight: bold;
+}
+
 
 @media (max-width: 770px) {
   .f-size-100 {
@@ -152,40 +194,52 @@ textarea {
 
 }
 
-.Team-Img{
+.Team-Img {
   width: 60%;
   margin: auto;
   border-radius: 20px;
 }
+
 @media (max-width: 700px) {
-  .Team-Img{
+  .Team-Img {
     width: 320px;
   }
 }
 
 /* NAVBAR CSS */
-.Navbar{
-  background-color: var(--main-white);
+.Navbar {
+  background-color: var(--thirt-blue);
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  width: 100vw;
+  position: absolute;
+  z-index: 100;
   display: flex;
   justify-content: space-between;
 }
-/* .Itcoders-Icon{
+
+.Itcoders-Icon {
   width: 70px;
-} */
-.Navbar-List{
-  /* margin-right: 10px;
-  color: white; */
+}
+
+.Navbar-List {
+  margin-right: 10px;
+  color: white;
   list-style: none;
   /* justify-content: space-around; */
 }
-.Navbar-List > a{
+
+.Navbar-List>a {
+  color: white;
   display: flex;
   align-items: center;
 }
-.Navbar-List > a:visited{
+
+.Navbar-List>a:visited {
   color: unset;
 }
-.Navbar-List > a > i{
+
+.Navbar-List>a>i {
   margin-right: 7px;
 }
 

@@ -1,31 +1,23 @@
-import Link from 'next/link'
-import React from 'react'
+'use client';
+import Link from "next/link"
+import { usePathname } from "next/navigation";
 
 export const Navbar = () => {
-    return (
-        <nav className="Navbar flex align-center padding-container">
-            <img className='Itcoders-Icon' src="" alt="Logo Itcoders" style={{marginLeft: 20}}/>
-            
-            <div>
-                <ul className="Navbar-List bg-light-gray border-radius-10 flex justify-center align-center">
-                    <a className="padding-container bg-primary-blue border-radius-10" href="#">
-                        <li>Inicio</li>
-                    </a>
-                    <a className="padding-container border-radius-10" href="#">
-                        <li>Sobre nosotros</li>
-                    </a>
-                    <a className="padding-container border-radius-10" href="#">
-                        <li>Servicios</li>
-                    </a>
-                    <a className="padding-container border-radius-10" href="#">
-                        <li>Proyectos</li>
-                    </a>
-                </ul>
-            </div>
 
-            <button className='bg-primary-blue padding-container border-radius-10 border-none' style={{marginRight: 20}}>
-                Empezar 
-            </button>
+    const pathname = usePathname();
+
+    return (
+        <nav className="flex p-20 justify-content">
+            <div className="flex bg-light-gray-color radius">
+                <Link href='/' className={`ph-20 p-10 radius ${pathname == '/' ? 'bg-primary white-text' : 'black-text'}`}>Inicio</Link>
+                <Link href='/sobre-nosotros' className={`ph-20 p-10 radius ${pathname == '/sobre-nosotros' ? 'bg-primary white-text' : 'black-text'}`} >Sobre nosotros</Link>
+                <Link href='/servicios' className={`ph-20 p-10 radius ${pathname == '/servicios' ? 'bg-primary white-text' : 'black-text'}`}>Servicios</Link>
+                <Link href='/contacto' className={`ph-20 p-10 radius ${pathname == '/contacto' ? 'bg-primary white-text' : 'black-text'}`}>Contacto</Link>
+            </div>
+            <Link href='' className="bg-primary white-text ph-20 p-10 radius gap-15 flex align-center" style={{ position: 'absolute', right: 100 }}>
+                Cotizar
+                <i className="fa-solid fa-arrow-right"></i>
+            </Link>
         </nav>
     )
 }
