@@ -16,9 +16,29 @@
 .Project-Card{ 
     border-radius: 30px;
     height: 50vh;
-    width: 35vw;
+    width: 50%;
     /* width: 600px; */
     /* height: 400px; */
+    position:relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.Project-Card-Info{ 
+    border-radius: 30px;
+    height: 50vh;
+    width: 30%;
+    /* width: 600px; */
+    /* height: 400px; */
+    position:relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.Project-Card-hide{ 
+    transition: 0.5s;
+    border-radius: 30px;
+    height: 50vh;
+    width: 6%;
     position:relative;
     overflow: hidden;
     transition: 0.5s;
@@ -34,6 +54,21 @@
 .Project-Numeration-Span{
     bottom: 15px;
     right: 15px;
+}
+
+
+.verticaltext {
+    transform: rotate(-90deg);
+    /* transform-origin: right, top; */
+    -ms-transform: rotate(-90deg);
+    /* -ms-transform-origin:right, top; */
+    -webkit-transform: rotate(-90deg);
+    /* -webkit-transform-origin:right, top; */
+
+    position: absolute; 
+    top: 50%; 
+    left: 0%;
+    right: 0%;
 }
 
 /* VISTA TABLETAS */
