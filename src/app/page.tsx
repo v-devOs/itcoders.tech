@@ -30,7 +30,7 @@ export default function Home() {
           </div>
       </section>  
       
-      <section className="bg-white flex justify-between align-center" style={{padding: "10px 40px"}}>
+      <section className="bg-white space-between align-center" style={{padding: "10px 40px"}}>
         <div>
           <span className="f-weight-700  f-size-12 mr-10">99% Clientes Satisfechos</span>
           <span className="f-weight-700  f-size-12 mr-10">Atención especializada 24/7</span>
@@ -59,10 +59,10 @@ export default function Home() {
           </Link>
         </div>
 
-        <div className="flex space-evenly" style={{width: "80%"}}>
+        <div className="grid-c-4 gap-15" style={{width: "80%"}}>
           
           {/* TODO: Hacer componentes estas etiquetas  */}
-          <div className="border-radius-30 p-10 bg-light-gray-color flex  align-center" style={{width: "180px", height:"75px"}}>
+          <div className="border-radius-40 p-10 bg-light-gray-color flex  align-center" >
             <div className="border-white icon-size flex align-center justify-content  border-radius-20 bg-light-gray-color mr-10">
               <i className="fa-brands fa-github fa-xl color-primary"></i>
             </div>
@@ -73,7 +73,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="border-radius-30 p-10 bg-light-gray-color flex  align-center" style={{width: "180px", height:"75px"}}>
+          <div className="border-radius-40 p-10 bg-light-gray-color flex  align-center" >
             <div className="border-white icon-size flex align-center justify-content  border-radius-20 bg-light-gray-color mr-10">
               <i className="fa-thin fa-people-group fa-xl color-primary"></i>
             </div>
@@ -84,7 +84,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="border-radius-30 p-10 bg-light-gray-color flex  align-center" style={{width: "180px", height:"75px"}}>
+          <div className="border-radius-40 p-10 bg-light-gray-color flex  align-center" >
             <div className="border-white icon-size flex align-center justify-content  border-radius-20 bg-light-gray-color mr-10">
               <i className="fa-thin fa-chart-simple fa-xl color-primary"></i>
             </div>
@@ -95,7 +95,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="border-radius-30 p-10 bg-light-gray-color flex  align-center" style={{width: "180px", height:"75px"}}>
+          <div className="border-radius-40 p-10 bg-light-gray-color flex  align-center" >
             <div className="border-white icon-size flex align-center justify-content  border-radius-20 bg-light-gray-color mr-10">
               <i className="fa-thin fa-arrows-to-dot fa-xl color-primary"></i>
             </div>
