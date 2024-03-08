@@ -1,4 +1,5 @@
 import { TeamCard } from "@/components";
+import { team } from "@/data";
 import Image from "next/image";
 
 const AboutUsPage = () => {
@@ -34,11 +35,15 @@ const AboutUsPage = () => {
             </section>
             <section className="bg-light-gray-color p-100 mt-50">
                 <div className="center-text">
-                    <h3 className="color-primary f-size-50">¡Nuestro equipo tiene más de <span className="color-dark-gray-color"> 100 años de experiencia combinada!</span></h3>
+                    <h3 className="color-primary f-size-50">¡Nuestro equipo tiene más de <span className="color-dark-gray-color"> 50 años de experiencia combinada!</span></h3>
                     <p className="f-size-20 mt-20">Nuestro equipo aporta experiencia, innovación, creatividad al mundo de la programación y desarrollo de productos que aseguran tus planes en buenas manos.</p>
                 </div>
                 <div className="mt-50 grid-c-4 gap-25">
-                    {/* <TeamCard /> */}
+                    {
+                        team.map((member, index) => (
+                            <TeamCard key={index} {...member} />
+                        ))
+                    }
                 </div>
             </section>
         </main>
