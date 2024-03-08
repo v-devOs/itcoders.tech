@@ -77,15 +77,6 @@ textarea {
 }
 
 
-@media (max-width: 770px) {
-  .f-size-100 {
-    font-size: 60px;
-  }
-
-  #sec-login {
-    padding: 15px;
-  }
-}
 
 /* Styles added for Uriel */
 .wrap {
@@ -142,7 +133,7 @@ textarea {
   background-color: var(--tertiary-color);
   margin: 5px 0px 10px;
   border: none;
-
+  
 }
 
 .Team-Img {
@@ -256,9 +247,9 @@ textarea {
   color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 5px #5599dd,
-    0 0 25px #5599dd,
-    0 0 50px #5599dd,
-    0 0 100px #5599dd;
+  0 0 25px #5599dd,
+  0 0 50px #5599dd,
+  0 0 100px #5599dd;
 }
 
 .login-box a span {
@@ -279,7 +270,7 @@ textarea {
   0% {
     left: -100%;
   }
-
+  
   50%,
   100% {
     left: 100%;
@@ -300,7 +291,7 @@ textarea {
   0% {
     top: -100%;
   }
-
+  
   50%,
   100% {
     top: 100%;
@@ -321,7 +312,7 @@ textarea {
   0% {
     right: -100%;
   }
-
+  
   50%,
   100% {
     right: 100%;
@@ -342,9 +333,33 @@ textarea {
   0% {
     bottom: -100%;
   }
-
+  
   50%,
   100% {
     bottom: 100%;
+  }
+}
+
+
+/* Diseno responsive */
+
+
+@media (max-width: 770px) {
+  .f-size-100 {
+    font-size: 60px;
+  }
+
+  #sec-login {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 476px) {
+  main h1{
+    font-size: 50px !important;
+  }
+
+  main .ph-100{
+    padding: 20px;
   }
 }
