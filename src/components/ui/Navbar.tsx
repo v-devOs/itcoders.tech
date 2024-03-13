@@ -20,26 +20,34 @@ export const Navbar = () => {
 
         <nav className="flex p-20 justify-content">
             <div className={`flex bg-light-gray-color radius ${ enable ? 'nav-items-enable' : 'nav-items-disable'}`}>
+                <span 
+                    className={` justify-end p-10`}
+                    style={{ display: windowWidth <= 768 ? 'flex': 'none' }}
+                    onClick={ onDisableNavbar }
+                >
+                    <i className="fa-solid fa-x"></i>
+                </span>
+
                 <Link href='/' className={`ph-20 p-10 radius ${pathname == '/' ? 'bg-primary white-text' : 'black-text'}`}
-                    onClick={() => onDisableNavbar()}
+                    onClick={onDisableNavbar}
                 >Inicio</Link>
                 <Link href='/sobre-nosotros' className={`ph-20 p-10 radius ${pathname == '/sobre-nosotros' ? 'bg-primary white-text' : 'black-text'} `} 
-                    onClick={() => onDisableNavbar()}
+                    onClick={onDisableNavbar}
                 >Sobre nosotros</Link>
                 <Link href='/servicios' className={`ph-20 p-10 radius ${pathname == '/servicios' ? 'bg-primary white-text' : 'black-text'} `}
-                    onClick={() => onDisableNavbar()}
+                    onClick={onDisableNavbar}
                 >Servicios</Link>
                 <Link href='/contacto' className={`ph-20 p-10 radius ${pathname == '/contacto' ? 'bg-primary white-text' : 'black-text'} `}
-                    onClick={() => onDisableNavbar()}
+                    onClick={onDisableNavbar}
                 >Contacto</Link>
                 <Link href='/cotizar' className={`ph-20 p-10 radius ${pathname == '/cotizar' ? 'bg-primary white-text' : 'black-text' } ${ windowWidth <= 768 ? '' : 'none'}`}
-                    onClick={() => onDisableNavbar()}
+                    onClick={onDisableNavbar}
                 >
                     Cotizar <i className="fa-solid fa-arrow-right"></i>
                 </Link>
             </div>
 
-            <div className={`center ${ enable ? 'control-enable': 'control-disable'}`} style={{ display: windowWidth <= 768 ? 'flex': 'none'}}>
+            <div className={`center ${ enable ? 'none': 'control-disable'}`} style={{ display: windowWidth <= 768 ? 'flex': 'none'}}>
                 <i className={`fa-solid fa-angles-right `} onClick={ () => onDisableNavbar()}></i>
             </div>
             <Link href='' 
